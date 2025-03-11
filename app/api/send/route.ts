@@ -15,7 +15,7 @@ export async function POST(req: Request) {
       react: WaitinglistEmail({ email }),
     });
 
-    const contact = await resend.contacts.create({
+    await resend.contacts.create({
       email,
       audienceId: "849f8e8e-bdda-4b56-8cdb-25093a1cdd68",
     });
@@ -26,6 +26,6 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ data }, { status: 200 });
   } catch (error) {
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    return NextResponse.json({ error: error }, { status: 500 });
   }
 }

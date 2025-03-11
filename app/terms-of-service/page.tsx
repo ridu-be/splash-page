@@ -49,7 +49,7 @@ export default function TermsOfService() {
                 <p className="text-foreground/70 mt-4">Deelname aan de waitinglist is op eigen risico.</p>
 
                 <h2 className="text-2xl font-serif mt-10">6. Intellectueel Eigendom</h2>
-                <p className="text-foreground/70 mt-4">Alle inhoud op deze landingpagina, inclusief logo's, tekst en ontwerp, is ons eigendom en mag niet zonder toestemming worden gebruikt of gereproduceerd.</p>
+                <p className="text-foreground/70 mt-4">Alle inhoud op deze landingpagina, inclusief logos, tekst en ontwerp, is ons eigendom en mag niet zonder toestemming worden gebruikt of gereproduceerd.</p>
 
                 <h2 className="text-2xl font-serif mt-10">7. Beëindiging</h2>
                 <p className="text-foreground/70 mt-4">Je kunt je deelname aan de waitinglist op elk moment beëindigen door je uit te schrijven via de link in onze e-mails. Wij kunnen je deelname beëindigen als je deze voorwaarden schendt.</p>
